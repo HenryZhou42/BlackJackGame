@@ -7,11 +7,12 @@ import java.util.Scanner;
 
 public class Main {
 
-    /*
-    * 输出文本并暂停一段时间让用户阅读
-    *@Param text 要输出的文本
-    *@Param pauseInMillis 暂停的时间（单位：毫秒）
-    */
+    /**
+     * 输出文本并暂停一段时间让用户阅读
+     *@Param text 要输出的文本
+     *@Param pauseInMillis 暂停的时间（单位：毫秒）
+     *
+     */
     public static void printLineWithPause(String text, long pauseInMillis) {
         System.out.println(text);
         try {
